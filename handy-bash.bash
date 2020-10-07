@@ -27,41 +27,43 @@ source .profile
 # 3: in your actual bash profile place the following line
 # source [path-to-this-folder]/handy-bash.bash
 
-full_path=$(realpath $0)
-
-
+#### YOU MUST CHANGE THIS TO THE PATH WHERE YOU PUT THE handy-bash repo
+#### YOU MUST CHANGE THIS TO THE PATH WHERE YOU PUT THE handy-bash repo
+#### YOU MUST CHANGE THIS TO THE PATH WHERE YOU PUT THE handy-bash repo
+#### YOU MUST CHANGE THIS TO THE PATH WHERE YOU PUT THE handy-bash repo
+CWD="$HOME/handy-bash"
 
 ### lines below this for all devs
 ## ls command enhancements
-source ./handy-ls.bash
+source "$CWD/handy-ls.bash"
 
 ## GIT
-source ./.git-completion.bash
-source ./handy-git.bash
+source "$CWD/.git-completion.bash"
+source "$CWD/handy-git.bash"
 ### lines above for all devs
 
 ### lines below for .js devs
 ## npm completion
-source ./handy-npm.bash
+source "$CWD/handy-npm.bash"
 
 ## nvm
-source ./handy-nvm.bash
+source "$CWD/handy-nvm.bash"
 
 ## yarn completion
-source ./handy-yarn.bash
+source "$CWD/handy-yarn.bash"
 ### lines above for .js devs
 
 ## dotnet
-source ./handy-dotnet.bash
+source "$CWD/handy-dotnet.bash"
 
 ## PYTHON
-source ./handy-python.bash
+source "$CWD/handy-python.bash"
 
 ## Android
-source ./handy-android.bash
+source "$CWD/handy-android.bash"
 
 ## Docker
-source ./handy-docker.bash
+source "$CWD/handy-docker.bash"
 
 ## other
 # go to the drives folder
