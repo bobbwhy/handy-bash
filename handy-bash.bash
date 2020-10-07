@@ -1,4 +1,16 @@
 
+#
+# Copyright (c) 2020. Robert LaMarca
+# All files released under the GPL-2.0 License ( see LICENSE.txt )
+# except where otherwise noted in their comments.
+# Files released in this repository are not to be considered as a project, but merely
+# a collection of files that may be used in their entirety or partially.
+
+# handy-bash.bash file is released as an example code file
+# and has no official license but is free for anyone to use
+
+#
+
 [[ -s "$HOME/.profile" ]] && source "$HOME/.profile" # Load the default .profile
 
 source .profile
@@ -54,3 +66,4 @@ source ./handy-docker.bash
 ## other
 # go to the drives folder
 alias _="cd /Volumes"
+

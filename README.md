@@ -1,4 +1,7 @@
 # Handy Bash
+Compiled by Robert LaMarca
+
+*(c) Robert LaMarca 2020 except where otherwise noted.* 
 
 This is simply a collection of bash scripts I have found useful
 which I have broken out into separate files to allow mixing and 
@@ -7,6 +10,10 @@ matching.
 This project was started as a learning tool for the 
 [New York JavaScript Study Group](https://www.meetup.com/New-York-JavaScript-Study-Group/)
 
+### Important Safety Tip: 
+This project is intended to be primarily a learning tool and reference.
+The code works on my own system, but you should read the documents and the 
+source before using on your own system.
 
 ## How to use: 
 If you use a system that has bash terminal ( Linux, Mac, Unix ) you will have 
@@ -63,7 +70,8 @@ For example: ``` gitbg newbranch ``` will list branches with "newbranch' in the 
 This is from [here](https://github.com/git/git/blob/master/contrib/completion/git-completion.bash)
 
 ### handy-npm.bash
-Tab completion for npm scripts.  This was sourced [here](https://docs.npmjs.com/cli-commands/completion.html): 
+Tab completion for npm scripts.  
+This was sourced [here](https://docs.npmjs.com/cli-commands/completion.html): 
 
 ### handy-yarn.bash
 Tab completion for yarn scripts.

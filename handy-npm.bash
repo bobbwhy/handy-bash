@@ -1,6 +1,9 @@
+
+
 ### NPM: This was injected by a script from npmjs
 ### which can be found here:
 ### https://docs.npmjs.com/cli-commands/completion.html
+### All licenses may be found at that link
 
 ###-begin-npm-completion-###
 #
