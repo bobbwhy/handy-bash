@@ -65,6 +65,10 @@ source "$CWD/handy-android.bash"
 ## Docker
 source "$CWD/handy-docker.bash"
 
+## XCode
+source "$CWD/handy-xcode.bash"
+
+
 ## other
 # go to the drives folder
 alias _="cd /Volumes"
