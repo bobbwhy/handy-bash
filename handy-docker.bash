@@ -7,3 +7,7 @@
 [[ -r "/usr/local/etc/profile.d/bash_completion.sh" ]] && . "/usr/local/etc/profile.d/bash_completion.sh"
 ## prune command
 alias dcprune="docker rmi $(docker images -f "dangling=true" -q)"
+
+## inspect image
+## must have jq installed .. if mac brew install jq
+alias docker-image-inspect-volumes="docker image inspect --format='{{json .ContainerConfig.Volumes}}' mongo | jq"

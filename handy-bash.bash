@@ -13,8 +13,6 @@
 
 [[ -s "$HOME/.profile" ]] && source "$HOME/.profile" # Load the default .profile
 
-source .profile
-
 ### How to use:
 # DO NOT SIMPLY CUT AND PASTE FROM THIS PAGE INTO YOUR BASH PROFILE!!!
 # Everything on this page references other files in this project
@@ -53,6 +51,8 @@ source "$CWD/handy-nvm.bash"
 source "$CWD/handy-yarn.bash"
 ### lines above for .js devs
 
+source "$CWD/dart/handy-dart.bash"
+
 ## dotnet
 source "$CWD/handy-dotnet.bash"
 
@@ -73,3 +73,4 @@ source "$CWD/handy-xcode.bash"
 # go to the drives folder
 alias _="cd /Volumes"
 
+alias _idea="~/handy-bash/handy-intellij.bash"
